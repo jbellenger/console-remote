@@ -22,4 +22,7 @@ package {
     require => Exec[fetch_node],
     source => '/root/node_latest_armhf.deb',
     ensure => installed;
+
+  git: 
+    ensure => installed;
 }
