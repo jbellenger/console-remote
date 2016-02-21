@@ -14,3 +14,5 @@ if [ ! `which puppet` ]; then
 fi
 
 puppet apply config.pp
+
+npm install
